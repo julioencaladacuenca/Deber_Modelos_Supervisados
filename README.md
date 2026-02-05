@@ -2,9 +2,7 @@
 
 ## 📌 Descripción del Proyecto
 
-Este proyecto tiene como objetivo desarrollar, entrenar y comparar tres modelos de aprendizaje supervisado (SVM, Árbol de Decisión y Random Forest) para predecir si un cliente realizará una compra, utilizando variables demográficas y económicas como edad, género y salario estimado.
-
-El análisis busca identificar el modelo con mejor desempeño predictivo y mayor capacidad de generalización, con el fin de apoyar la toma de decisiones en contextos de marketing digital.
+Este proyecto tiene como objetivo desarrollar, entrenar y comparar tres modelos de aprendizaje supervisado (SVM, Árbol de Decisión y Random Forest) para predecir si un cliente realizará una compra, utilizando variables demográficas y económicas como edad y salario estimado.
 
 ---
 
@@ -14,7 +12,6 @@ Se utilizó el conjunto de datos **Social_Network_Ads.csv**, el cual contiene in
 
 ### Variables principales:
 
-- Gender: Género del usuario  
 - Age: Edad del usuario  
 - EstimatedSalary: Salario estimado  
 - Purchased: Variable objetivo (0 = No compra, 1 = Compra)
