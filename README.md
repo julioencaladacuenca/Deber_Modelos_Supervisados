@@ -4,6 +4,8 @@
 
 Este proyecto tiene como objetivo desarrollar, entrenar y comparar tres modelos de aprendizaje supervisado (SVM, Árbol de Decisión y Random Forest) para predecir si un cliente realizará una compra, utilizando variables demográficas y económicas como edad y salario estimado.
 
+El problema abordado corresponde a un problema de clasificación supervisada, donde la variable objetivo toma valores binarios (0 = No compra, 1 = Compra).
+
 ---
 
 ## 📂 Dataset
