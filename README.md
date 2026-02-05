@@ -81,11 +81,11 @@ Se construyó una tabla resumen y gráficos comparativos para contrastar el dese
 
 ## 📊 Resultados
 
-### 📋 Tabla comparativa de métrricas
+### 📋 Tabla comparativa de métricas
 
 ![Tabla comparativa](results/Tabla_Comparativa_Tres_Modelos.png)
 
-### 📈 Comparación gráfica de métrricas (Clase Compra = 1)
+### 📈 Comparación gráfica de métricas (Clase Compra = 1)
 
 ![Gráfico comparativo](results/Grafico_Comparacion_Metricas_clase1.png)
 
