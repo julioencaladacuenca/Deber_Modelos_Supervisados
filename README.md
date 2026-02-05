@@ -74,7 +74,7 @@ Se priorizó el análisis de la clase positiva (Compra = 1), por su relevancia e
 
 ### 5️⃣ Comparación Experimental
 
-Se realiza la comparación de los tres modelos a través de tabla resumen, gráfico y matriz de confusión para contrastar el desempeño de los modelos, permitiendo identificar el clasificador con mejores resultados globales.
+Se realiza la comparación de los tres modelos a través de tabla resumen, gráfico de métricas y matriz de confusión para contrastar el desempeño de los modelos, permitiendo identificar el clasificador con mejores resultados globales.
 
 ---
 
