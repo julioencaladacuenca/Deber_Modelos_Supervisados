@@ -82,11 +82,46 @@ Se construyó una tabla resumen y gráficos comparativos para contrastar el dese
 
 ### 📋 Tabla comparativa de métricas
 
+A continuación, se presenta una tabla resumen con las métricas obtenidas por cada modelo en la clase positiva (Compra = 1), incluyendo accuracy, precisión, recall y F1-score.
+
 ![Tabla comparativa](results/Tabla_Comparativa_Tres_Modelos.png)
+
+#### Interpretación de la tabla comparativa
+
+La tabla evidencia que el modelo SVM con kernel RBF presenta el mejor desempeño global, al alcanzar el mayor accuracy (0.91) y F1-score (0.89). El modelo Random Forest muestra un rendimiento competitivo, mientras que el Árbol de Decisión obtiene valores ligeramente inferiores.
+
+---
 
 ### 📈 Comparación gráfica de métricas (Clase Compra = 1)
 
+El siguiente gráfico muestra de manera visual la comparación entre precisión, recall y F1-score para los tres modelos evaluados.
+
 ![Gráfico comparativo](results/Grafico_Comparacion_Metricas_clase1.png)
+
+#### Interpretación del gráfico comparativo
+
+El gráfico confirma que el modelo SVM mantiene los valores más altos en recall y F1-score, lo que indica una mayor capacidad para identificar correctamente a los clientes con intención de compra. El Random Forest presenta resultados cercanos, mientras que el Árbol de Decisión muestra un desempeño ligeramente inferior.
+
+---
+
+### 🔲 Matrices de confusión de los modelos
+
+A continuación, se presentan las matrices de confusión correspondientes a cada modelo evaluado.
+
+![Matrices de confusión](results/Matrices_Confusion_Tres_Modelos.png)
+
+#### Interpretación de las matrices de confusión
+
+Las matrices de confusión muestran que el modelo SVM presenta el menor número de falsos negativos, lo cual resulta relevante en el contexto del problema, ya que reduce la pérdida de potenciales compradores. Asimismo, el Random Forest mantiene un comportamiento estable, mientras que el Árbol de Decisión presenta una mayor tasa de errores.
+
+Estos resultados respaldan la selección del modelo SVM como el clasificador más adecuado para este problema.
+
+---
+
+### 🏆 Selección del modelo final
+
+Con base en los resultados obtenidos en la tabla comparativa, el análisis gráfico y las matrices de confusión, se selecciona el modelo SVM con kernel RBF (C = 1, gamma = scale) como el modelo final, debido a su mejor equilibrio entre precisión, sensibilidad y robustez predictiva.
+
 
 ---
 
